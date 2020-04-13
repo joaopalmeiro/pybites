@@ -8,5 +8,5 @@ def allowed_driving(name, age):
     print(f"{name} is{not_str}allowed to drive")
 
 
-print(allowed_driving("tim", 17))
-print(allowed_driving("bob", 18))
+allowed_driving("tim", 17)
+allowed_driving("bob", 18)
