@@ -1,7 +1,7 @@
 from copy import deepcopy
 from typing import List, TypedDict
 
-Item = TypedDict("Item", {"id": int, "name": str, "value": int})
+Item = TypedDict("Item", {"id": int, "name": str, "value": int})  # Python 3.8
 
 
 # or `List[Dict[str, Union[int, str]]]`
@@ -12,7 +12,7 @@ items: List[Item] = [
 ]
 
 
-def duplicate_items(items):
+def duplicate_items(items: List[Item]) -> List[Item]:
     return deepcopy(items)  # `items[:]` makes a shallow copy
 
 

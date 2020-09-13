@@ -15,5 +15,7 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
-  }
+  },
+
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3.8"
 }
