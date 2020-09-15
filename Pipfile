@@ -10,6 +10,7 @@ isort = "*"
 black = "==20.8b1"
 
 [packages]
+feedparser = "*"
 
 [requires]
 python_version = "3.8"
